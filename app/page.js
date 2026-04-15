@@ -1,5 +1,7 @@
-import FarmerForm from '@/components/FarmerForm';
+'use client';
 
-export default function Home() {
-  return <FarmerForm />;
+import ModernAdvancedFarmerForm from '@/components/ModernAdvancedFarmerForm';
+
+export default function AdvancedPage() {
+  return <ModernAdvancedFarmerForm />;
 }
